@@ -13,7 +13,8 @@ val project = Project(
                  // for usage in the persistence example
                  "org.iq80.leveldb"            % "leveldb"          % "0.7",
                  "org.fusesource.leveldbjni"   % "leveldbjni-all"   % "1.8",
-                 "com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC3"
+                 "com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC3",
+                 "com.typesafe.akka" % "akka-http-experimental_2.11" % "1.0-RC3"
                  )
              )
 )
